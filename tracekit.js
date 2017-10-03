@@ -1255,7 +1255,7 @@ TraceKit.extendToAsynchronousCallbacks = function () {
 
 //Default options:
 if (!TraceKit.remoteFetching) {
-    TraceKit.remoteFetching = true;
+    TraceKit.remoteFetching = false;
 }
 if (!TraceKit.collectWindowErrors) {
     TraceKit.collectWindowErrors = true;
